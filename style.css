@@ -1,19 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&family=Space+Mono&display=swap');
 body,html
 {
     width: 100%;
     margin: 0;
     padding: 0;
     height: 100%;
-    overflow-x: hidden;
+    overflow: hidden;
+    /* overflow-x: hidden; */
 }
 body
 {
     background-color: hsl(270, 20%, 96%);
+    font-family: 'Rubik';
+    display: flex;
+    flex-direction: column;
 }
 .main
 {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+    display: flex;
+    flex-direction: row;
 
 }
 .main:before
@@ -32,7 +39,7 @@ border-bottom-right-radius:10rem ;
 
 .main:after
 {
-background: linear-gradient(to top right, hsl(264, 100%, 61%),hsl(293, 100%, 63%) );
+    background-color:hsl(272, 15%, 87%);
 content: "";
 position: absolute;
 left: 85%;
@@ -124,4 +131,13 @@ left: 7rem;
 .info-bar p
 {
     color: hsl(270, 7%, 64%);
+}
+@media (max-width:479)
+{
+    .main
+    {
+        grid-template-columns: 1fr;
+
+        background: red;
+    }
 }
