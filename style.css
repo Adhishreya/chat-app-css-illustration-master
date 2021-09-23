@@ -321,4 +321,24 @@ input
         flex-direction:column!important ;
         /* background: red; */
     }
+    .main::after
+    {
+        left: 56%;
+        top: 61%;
+        width: 50%;
+        height: 38%;
+    }
+    .main::before
+    {
+        left: 0rem;
+        width: 30rem;
+        height: 47rem;
+        width: 50%;
+        height: 34%;
+    }
+    .mobile-front
+    {
+        width: 96%;
+        margin: 2rem 0rem;
+    }
 }
