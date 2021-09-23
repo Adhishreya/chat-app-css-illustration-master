@@ -46,7 +46,7 @@ z-index: -1;
 /* width: 30rem;
 height: 47rem; */
 
-width: 24rem;
+width: 24%;
 height: 60%;
 
 border-bottom-right-radius: 21rem;
@@ -64,11 +64,18 @@ z-index: -1;
 width: 14rem;
 height: 30rem;
 border-top-left-radius:10rem ; */
-left: 69%;
+/* left: 77%;
 top: 45%;
 z-index: -1;
-width: 26rem;
+width: 24%;
 height: 34rem;
+border-top-left-radius: 15rem;
+border-top-right-radius: 10rem; */
+left: 84%;
+top: 43%;
+z-index: -1;
+width: 24%;
+height: 57%;
 border-top-left-radius: 15rem;
 border-top-right-radius: 10rem;
 
@@ -98,9 +105,17 @@ border-top-right-radius: 10rem;
 {
     /* display: grid; */
     /* grid-gap: 0.5rem; */
-    margin-left: 6rem;
-    width: 10rem;
+    /* margin-left: 6rem;
+    width: 10rem; */
     /* grid-template-columns: repeat(3,1fr); */
+    width: 60%;
+float: right;
+position: relative;
+top: 2%;
+justify-self: flex-end;
+margin: 6% 16% 0% 41%;
+display: flex;
+justify-content: space-evenly;
 }
 .dog-images img,.top-bar img
 {
@@ -126,15 +141,16 @@ border-top-right-radius: 10rem;
     border-radius: 0.6rem;
     background-color: hsl(270, 20%, 96%);
     height: 30rem; */
-    padding: 1rem;
-    width: 17rem;
+    /* padding: 1rem; */
+    /* width: 80%; */
+    width: 100%;
     margin: 2rem 12rem;
     z-index: 1;
     border: 1rem solid hsl(0, 0%, 100%);
     border-radius: 2.6rem;
     background-color: hsl(270, 20%, 96%);
     /* height: 45rem; */
-    height: 100%;
+    height: 80%;
     display: flex;
     flex-direction: column;
    
@@ -157,13 +173,13 @@ border-top-right-radius: 10rem;
     position: relative;
     top: -1rem;
 /* left: 7rem; */
-left: 7.5rem;
+left: 9rem;
 
     transform: translate(-50% ,0%);
     /* width: 10rem;
     height: 2rem; */
     width: 9rem;
-    height: 1.7rem;
+    height: 30%;
     border-radius: 1rem;
 }
 .top-bar
@@ -175,23 +191,37 @@ left: 7.5rem;
     grid-template-columns: repeat(2, 1fr); 
     font-size:  16px;
     color:  hsl(0, 0%, 100%); */
-    width: 98%;
+    width: 100%;
     /* grid-template-columns: repeat(2, 1fr); */
     font-size: 16px;
     color: hsl(0, 0%, 100%);
     border-radius: 01rem;
     margin: auto;
     justify-content: flex-start;
-    height: 12%;
+    height: 16%;
+padding: 4% 0%;
+}
+.back:hover , .option-bar:hover
+{
+    cursor: pointer;
 }
 .left-normal
 {
-    width: 10rem;
+    /* width: 10rem; */
+    /* width: 80%;
     text-align: left;
     background-color:hsl(272, 15%, 87%);
     color: hsl(276, 55%, 52%);
     border-radius: 0.5rem 0.5rem 0.5rem 0rem;
+    padding: 0.5rem; */
+    width: 80%;
+    text-align: left;
+    background-color: hsl(272, 15%, 87%);
+    color: hsl(276, 55%, 52%);
+    border-radius: 0.5rem 0.5rem 0.5rem 0rem;
     padding: 0.5rem;
+    position: relative;
+    margin: 6% 0% 0% 3%;
 }
 .bottom-content-1
 {
@@ -242,10 +272,16 @@ left: 7.5rem;
     color: hsl(271, 15%, 43%);
     background-color: hsl(0, 0%, 100%);
     /* width: 7rem; */
-    width: 13rem;
+    /* width: 13rem;
     padding: 0.5rem;
     float: right;
     margin: auto;
+    display: flex;
+    border-radius: 0.5rem 0.5rem 0rem 0.5rem; */
+    width: 67%;
+    padding: 0.5rem;
+    float: right;
+    margin: 6% 16% 0% 25%;
     display: flex;
     border-radius: 0.5rem 0.5rem 0rem 0.5rem;
 
@@ -271,7 +307,7 @@ left: 7.5rem;
 }
 .info-bar
 {
-
+    align-self: center;
 }
 input
 {
