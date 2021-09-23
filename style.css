@@ -335,6 +335,7 @@ label
         /* grid-template-columns: 1fr; */
         flex-direction:column!important ;
         /* background: red; */
+        height:79%;
     }
     .main::after
     {
