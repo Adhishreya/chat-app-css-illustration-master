@@ -143,8 +143,10 @@ justify-content: space-evenly;
     height: 30rem; */
     /* padding: 1rem; */
     /* width: 80%; */
-    width: 100%;
-    margin: 2rem 12rem;
+    /* width: 100%;
+    margin: 2rem 12rem; */
+    width: 70%;
+margin: 2rem 5rem;
     z-index: 1;
     border: 1rem solid hsl(0, 0%, 100%);
     border-radius: 2.6rem;
@@ -312,7 +314,17 @@ padding: 4% 0%;
 input
 {
     border: 1rem solid  hsl(289, 100%, 72%) !important;
-    background-color: transparent !important;
+    background-color: red !important;
+    display: none;
+}
+label
+{
+    width: 1rem;
+    height: 1rem;
+    position: relative;
+    border: solid  hsl(289, 100%, 72%) !important;
+    border-radius: 50%;
+    margin-right: 3%;
 }
 @media only screen and (max-width:475px) {
     .main
@@ -340,5 +352,9 @@ input
     {
         width: 96%;
         margin: 2rem 0rem;
+    }
+    .bottom-content-1
+    {
+        width:63%;
     }
 }
