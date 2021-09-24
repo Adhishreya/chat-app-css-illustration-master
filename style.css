@@ -15,6 +15,7 @@ body
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
+    height: auto;
 }
 .main
 {
@@ -57,7 +58,7 @@ border-bottom-left-radius: 17rem;
 {
     background-color:hsl(272, 15%, 87%);
 content: "";
-position: absolute;
+position: fixed;
 /* left: 85%;
 top: 45%;
 z-index: -1;
@@ -71,8 +72,10 @@ width: 24%;
 height: 34rem;
 border-top-left-radius: 15rem;
 border-top-right-radius: 10rem; */
-left: 84%;
-top: 43%;
+/* left: 84%; */
+/* top: 43%; */
+right: 0;
+bottom: 0;
 z-index: -1;
 width: 24%;
 height: 57%;
@@ -95,7 +98,8 @@ border-top-right-radius: 10rem;
     float: left;
     left: -24%;
     font-weight: 700;
-    top: 40%;
+    /* top: 40%; */
+    top: 20%;
 }
 .option-bar span 
 {
@@ -155,7 +159,7 @@ margin: 2rem 5rem;
     height: 100%;
     display: flex;
     flex-direction: column;
-    padding-bottom: 4%;
+    padding-bottom: 0%;
 }
 .block-intro
 {
@@ -329,10 +333,11 @@ label
     margin-right: 3%;
 }
 
-@media only screen and (max-width:475px) {
+@media only screen and (max-width:680px) {
     .main
     {
         /* grid-template-columns: 1fr; */
+        max-width: 261px;
         flex-direction:column!important ;
         /* background: red; */
         height:79%;
