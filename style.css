@@ -177,15 +177,15 @@ margin: 2rem 5rem;
     background: hsl(0, 0%, 100%);
     content: "";
     position: relative;
-    top: -0.4rem;
+    top: -0.5rem;
 /* left: 7rem; */
-left: 9rem;
+left: 35%;
 
-    transform: translate(-50% ,0%);
+/*     transform: translate(-50% ,0%); */
     /* width: 10rem;
     height: 2rem; */
     width: 9rem;
-    height: 22%;
+    height: 1rem;
     border-radius: 2rem;
 }
 .top-bar
